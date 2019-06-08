@@ -1,12 +1,3 @@
-terraform {
-  required_version = ">= 0.11.8"
-}
-
-provider "aws" {
-  version = ">= 2.6.0"
-  region  = "${var.region}"
-}
-
 provider "random" {
   version = "= 1.3.1"
 }
